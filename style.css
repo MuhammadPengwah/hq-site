@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+  --ink: #0c0b09;
+  --text: #ece6da;
+  --dim: #9a9284;
+  --amber: #ff9a2e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--text);
+  font: 17px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 5rem;
+}
+
+.mark {
+  margin: 0 0 2.5rem;
+  font: 600 1.75rem/1 ui-monospace, "Cascadia Mono", Consolas, monospace;
+  color: var(--amber);
+  text-shadow: 0 0 12px rgb(255 120 0 / 0.4);
+}
+
+.mark a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0 1.25rem;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin: 2.25rem 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+p {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+.meta {
+  color: var(--dim);
+  font-size: 0.9rem;
+}
+
+a {
+  color: var(--amber);
+}
